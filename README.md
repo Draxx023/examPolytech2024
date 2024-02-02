@@ -41,11 +41,12 @@ Un l'url et le token de connexion vous sera donner pendant l'exam.
 
 Dans un fichier txt simple à coté de votre docker-compose.yml répondez aux questions suivantes:  
 16) Qu'est ce que Docker ? A quoi cela sert-il ?
-    Docker est un outil qui permet de conteneuriser des applications informatiques, comme des services web, des bases de données, etc. Il fournit une interface complète qui donne la possiblité de définir les dépendances d'une application quelconque et la lancer dans un "environment" indépendant de l'environment du hôte
+    Docker est un outil qui permet de conteneuriser des applications informatiques, comme des services web, des bases de données, etc. Il fournit une interface complète qui donne la possiblité de définir les dépendances d'une application quelconque et la lancer dans un "environment" indépendant de l'environment du hôte, tout en fournissant des fonctionnalités pour la persistance des données, pour les connexions réseau entre conteneurs et avec le hôte lui même. 
+    Docker sert à satisfaire un besoin essentiel dans le monde du développement: la portabilité des applications, et ce qui est mieux, c'est qu'il permet d'automatiser cette portabilité, en donnant la possibilité de définir tous les besoins possibles des applications à conteneuriser, et la possibilité de lancer celle-ci sur n'importe quelle machine supportant docker.
 17) Qu'est ce que la CI et la CD ? Pourquoi est-ce utile ?
-
+    La CI/CD est un concept DevOps qui est: Continuos Integration / Continuos Delivery (ou deploy mais moi je préfère delivery). Dans d'autres mots, ce concept pose les bases pour l'automatisation du process de validation, packaging, et deploiement des applications informatiques. Il permet dans la phase CI d'intégrer d'une manière automatisée et controllé le nouveau code à la code base existante, à travers des phases de validation comme les pull request, la validation de test, etc. La partie CD permet d'automatiser le process de deploiement à travers la validation des étapes de build et deploy, pour que les nouvelles versions qui ont été validés puissent être livrés sur leurs environment de production spécifiques.
 18) Qu'avez vous pensez du cours ? 
-
+    C'est un cours complet qui traite d'une manière pratique et efficace docker, docker compose et github actions, ce qui n'est pas toujours facile. J'ai bien apprécié le travail sur les cas pratiques directs, en utilisant des applcations réelles qu'on connait très bien (cf Michelin). Globalement, c'est un cours que j'ai apprécie vu le fait que docker c'est un sujet récurrent dans mon entreprise. 
 19) Surprenez moi
-
+    
 20) Créer un repo sur github et pusher votre code
