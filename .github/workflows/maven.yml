@@ -33,12 +33,3 @@ jobs:
         file: Dockerfile.gha
         push: false
         tags: rg.fr-par.scw.cloud/exampolytech2024/java:ayoub
-    - name: Use CLI
-      uses: scaleway/action-scw@v0
-      id: cli
-      with:
-        version: v2.13.0
-        access-key: ${{ secrets.SCW_ACCESS_KEY }}
-        secret-key: ${{ secrets.SCW_SECRET_KEY }}
-        default-project-id: ${{ secrets.SCW_DEFAULT_PROJECT_ID }}
-        args: container container create name=ayoub-back namespace-id=4f8c01c3-6c86-4cba-abf7-a652eeaa04be registry-image=rg.fr-par.scw.cloud/exampolytech2024/java:ayoub min-scale=1 max-scale=1 memory-limit=512 cpu-limit=280 environment-variables.spring.datasource.url=jdbc:mysql://51.159.112.97:3306/etudiant4

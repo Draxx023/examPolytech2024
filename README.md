@@ -41,7 +41,7 @@ Un l'url et le token de connexion vous sera donner pendant l'exam.
 
 Dans un fichier txt simple à coté de votre docker-compose.yml répondez aux questions suivantes:  
 16) Qu'est ce que Docker ? A quoi cela sert-il ?
-    Docker est un outil qui permet 
+    Docker est un outil qui permet de conteneuriser des applications informatiques, comme des services web, des bases de données, etc. Il fournit une interface complète qui donne la possiblité de définir les dépendances d'une application quelconque et la lancer dans un "environment" indépendant de l'environment du hôte
 17) Qu'est ce que la CI et la CD ? Pourquoi est-ce utile ?
 
 18) Qu'avez vous pensez du cours ? 
