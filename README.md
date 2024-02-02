@@ -44,8 +44,6 @@ Voici vos questions formatées en Markdown pour votre README sur GitHub :
 
 ---
 
-### Dans un fichier txt simple à côté de votre docker-compose.yml répondez aux questions suivantes :
-
 #### 16) Qu'est-ce que Docker ? À quoi cela sert-il ?
 
 Docker est un outil qui permet de conteneuriser des applications informatiques, comme des services web, des bases de données, etc. Il fournit une interface complète qui donne la possibilité de définir les dépendances d'une application quelconque et la lancer dans un "environnement" indépendant de l'environnement de l'hôte, tout en fournissant des fonctionnalités pour la persistance des données, pour les connexions réseau entre conteneurs et avec l'hôte lui-même. Docker sert à satisfaire un besoin essentiel dans le monde du développement : la portabilité des applications, et ce qui est mieux, c'est qu'il permet d'automatiser cette portabilité, en donnant la possibilité de définir tous les besoins possibles des applications à conteneuriser, et la possibilité de lancer celle-ci sur n'importe quelle machine supportant Docker.
