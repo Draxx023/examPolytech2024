@@ -41,7 +41,7 @@ Un l'url et le token de connexion vous sera donner pendant l'exam.
 
 Dans un fichier txt simple à coté de votre docker-compose.yml répondez aux questions suivantes:  
 16) Qu'est ce que Docker ? A quoi cela sert-il ?
-
+    Docker est un outil qui permet 
 17) Qu'est ce que la CI et la CD ? Pourquoi est-ce utile ?
 
 18) Qu'avez vous pensez du cours ? 
